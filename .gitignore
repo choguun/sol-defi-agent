@@ -1,0 +1,14 @@
+# Ignore environment variables
+.env
+
+# Ignore dependencies
+node_modules/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore SQLite database files
+db.sqlite
+
+# Don't ignore TypeScript files
