@@ -32,9 +32,15 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { character } from "./character.ts";
 import type { DirectClient } from "@ai16z/client-direct";
+import { promises as fsPromises } from 'fs';
 
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
 const __dirname = path.dirname(__filename); // get the name of the directory
+
+interface UserProfile {
+  riskTolerance: 'low' | 'medium' | 'high';
+  firstTime: boolean;
+}
 
 export const wait = (minTime: number = 1000, maxTime: number = 3000) => {
   const waitTime =
@@ -277,6 +283,62 @@ async function startAgent(character: Character, directClient: DirectClient) {
   }
 }
 
+async function getUserProfile(userId: string): Promise<UserProfile | null> {
+  const profilePath = path.join(__dirname, '../data/profiles', `${userId}.json`);
+  try {
+    const data = await fsPromises.readFile(profilePath, 'utf8');
+    return JSON.parse(data);
+  } catch (error) {
+    return null;
+  }
+}
+
+async function saveUserProfile(userId: string, profile: UserProfile): Promise<void> {
+  const profileDir = path.join(__dirname, '../data/profiles');
+  await fsPromises.mkdir(profileDir, { recursive: true });
+  const profilePath = path.join(profileDir, `${userId}.json`);
+  await fsPromises.writeFile(profilePath, JSON.stringify(profile, null, 2));
+}
+
+async function askRiskProfilingQuestions(): Promise<UserProfile> {
+  return new Promise((resolve) => {
+    const questions = [
+      'On a scale of 1-5, how comfortable are you with financial risk? (1=very conservative, 5=very aggressive): ',
+      'What percentage of your investment are you willing to risk for higher returns? (0-100): ',
+      'How would you react to a 20% drop in your investment value? (1=sell immediately, 5=buy more): '
+    ];
+    
+    let answers: number[] = [];
+    
+    const askQuestion = (index: number) => {
+      rl.question(questions[index], (answer) => {
+        const numAnswer = parseInt(answer);
+        if (isNaN(numAnswer)) {
+          console.log('Please enter a valid number');
+          askQuestion(index);
+          return;
+        }
+        
+        answers.push(numAnswer);
+        if (index < questions.length - 1) {
+          askQuestion(index + 1);
+        } else {
+          // Calculate risk tolerance based on answers
+          const avgRisk = answers.reduce((a, b) => a + b, 0) / answers.length;
+          const riskTolerance = avgRisk <= 2 ? 'low' : avgRisk <= 3.5 ? 'medium' : 'high';
+          
+          resolve({
+            riskTolerance,
+            firstTime: false
+          });
+        }
+      });
+    };
+    
+    askQuestion(0);
+  });
+}
+
 const startAgents = async () => {
   const directClient = await DirectClientInterface.start();
   const args = parseArguments();
@@ -289,8 +351,25 @@ const startAgents = async () => {
     characters = await loadCharacters(charactersArg);
   }
   console.log("characters", characters);
+
+  // Check for first-time user and do risk profiling
+  const userId = "user"; // You might want to implement proper user identification
+  let userProfile = await getUserProfile(userId);
+
+  if (!userProfile) {
+    console.log("\nWelcome! Let's set up your risk profile first.\n");
+    userProfile = await askRiskProfilingQuestions();
+    await saveUserProfile(userId, userProfile);
+    console.log(`\nRisk profile saved! Your risk tolerance is: ${userProfile.riskTolerance}\n`);
+  }
+
   try {
     for (const character of characters) {
+      // Pass user profile to the character's settings
+      character.settings = {
+        ...character.settings,
+        userProfile: userProfile
+      };
       await startAgent(character, directClient as DirectClient);
     }
   } catch (error) {
@@ -302,7 +381,7 @@ const startAgents = async () => {
     rl.question("You: ", async (input) => {
       await handleUserInput(input, agentId);
       if (input.toLowerCase() !== "exit") {
-        chat(); // Loop back to ask another question
+        chat();
       }
     });
   }
