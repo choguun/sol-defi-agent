@@ -219,7 +219,7 @@ export function createAgent(
   return new AgentRuntime({
     databaseAdapter: db,
     token,
-    modelProvider: character.modelProvider,
+    modelProvider: character.modelProvider || ModelProviderName.GAIANET,
     evaluators: [],
     character,
     plugins: [
@@ -365,10 +365,27 @@ const startAgents = async () => {
 
   try {
     for (const character of characters) {
-      // Pass user profile to the character's settings
+      // Enhance character settings with detailed risk profile information
       character.settings = {
         ...character.settings,
-        userProfile: userProfile
+        secrets: {
+          ...character.settings?.secrets,
+          userRiskProfile: JSON.stringify({
+            riskTolerance: userProfile.riskTolerance,
+            riskToleranceDetails: {
+              level: userProfile.riskTolerance,
+              description: getRiskToleranceDescription(userProfile.riskTolerance),
+              maxDrawdown: getRiskToleranceDrawdown(userProfile.riskTolerance),
+              recommendedInvestmentTypes: getRiskToleranceInvestments(userProfile.riskTolerance),
+            },
+            lastUpdated: new Date().toISOString(),
+          }),
+          investmentPreferences: JSON.stringify({
+            maxRiskPerTrade: getMaxRiskPerTrade(userProfile.riskTolerance),
+            preferredInvestmentHorizon: getInvestmentHorizon(userProfile.riskTolerance),
+            stopLossPreference: getStopLossPreference(userProfile.riskTolerance),
+          })
+        }
       };
       await startAgent(character, directClient as DirectClient);
     }
@@ -434,3 +451,84 @@ async function handleUserInput(input, agentId) {
     console.error("Error fetching response:", error);
   }
 }
+
+function getRiskToleranceDescription(riskTolerance: string): string {
+  switch (riskTolerance) {
+    case 'low':
+      return 'Conservative investor preferring stability over high returns. Focus on capital preservation.';
+    case 'medium':
+      return 'Balanced investor accepting moderate risks for potential higher returns.';
+    case 'high':
+      return 'Aggressive investor comfortable with high risks for potentially higher returns.';
+    default:
+      return 'Risk tolerance level not specified.';
+  }
+}
+
+function getRiskToleranceDrawdown(riskTolerance: string): number {
+  switch (riskTolerance) {
+    case 'low':
+      return 10; // 10% maximum drawdown
+    case 'medium':
+      return 20; // 20% maximum drawdown
+    case 'high':
+      return 30; // 30% maximum drawdown
+    default:
+      return 15;
+  }
+}
+
+function getRiskToleranceInvestments(riskTolerance: string): string[] {
+  switch (riskTolerance) {
+    case 'low':
+      return ['Stable Coins', 'Blue Chip Tokens', 'Large Cap Assets'];
+    case 'medium':
+      return ['Mid Cap Tokens', 'Established DeFi Protocols', 'Yield Farming'];
+    case 'high':
+      return ['Small Cap Tokens', 'New DeFi Protocols', 'Leveraged Trading'];
+    default:
+      return ['Stable Coins', 'Blue Chip Tokens'];
+  }
+}
+
+function getMaxRiskPerTrade(riskTolerance: string): number {
+  switch (riskTolerance) {
+    case 'low':
+      return 2; // 2% per trade
+    case 'medium':
+      return 5; // 5% per trade
+    case 'high':
+      return 10; // 10% per trade
+    default:
+      return 3;
+  }
+}
+
+function getInvestmentHorizon(riskTolerance: string): string {
+  switch (riskTolerance) {
+    case 'low':
+      return 'long-term';
+    case 'medium':
+      return 'medium-term';
+    case 'high':
+      return 'short-term';
+    default:
+      return 'medium-term';
+  }
+}
+
+function getStopLossPreference(riskTolerance: string): number {
+  switch (riskTolerance) {
+    case 'low':
+      return 5; // 5% stop loss
+    case 'medium':
+      return 10; // 10% stop loss
+    case 'high':
+      return 15; // 15% stop loss
+    default:
+      return 7;
+  }
+}
+
+const userRiskProfile = JSON.parse(character.settings?.secrets?.userRiskProfile || '{}');
+const investmentPreferences = JSON.parse(character.settings?.secrets?.investmentPreferences || '{}');

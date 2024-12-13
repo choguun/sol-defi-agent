@@ -42,3 +42,27 @@ pnpm install
 cp .env.example .env
 pnpm bulid:package
 pnpm start
+
+
+- `GAIANET_MODEL`: 🤖
+
+  1. Visit https://docs.gaianet.ai/user-guide/nodes
+  2. Choose your model (default: llama)
+  3. Copy the model name
+
+- `GAIANET_SERVER_URL`: 🌐
+
+  1. Visit https://docs.gaianet.ai/user-guide/nodes
+  2. Get server URL for your chosen model
+  3. Default: https://llama8b.gaia.domains/v1
+
+- `GAIANET_EMBEDDING_MODEL`: 🧬
+
+  1. Visit https://docs.gaianet.ai/user-guide/nodes
+  2. Choose embedding model (default: nomic-embed)
+  3. Copy the model name
+
+- `USE_GAIANET_EMBEDDING`: ⚙️
+
+  1. Set to TRUE to enable Gaianet embeddings
+  2. Set to FALSE to disable (default: TRUE)

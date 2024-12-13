@@ -13,43 +13,46 @@ importers:
     dependencies:
       '@ai16z/adapter-postgres':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       '@ai16z/adapter-sqlite':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)
       '@ai16z/client-auto':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)
       '@ai16z/client-direct':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(bufferutil@4.0.8)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(bufferutil@4.0.8)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
       '@ai16z/client-discord':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(ffmpeg-static@5.2.0)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(ffmpeg-static@5.2.0)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)
       '@ai16z/client-telegram':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       '@ai16z/client-twitter':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)
       '@ai16z/eliza':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       '@ai16z/plugin-bootstrap':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
       '@ai16z/plugin-image-generation':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
       '@ai16z/plugin-node':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(zod@3.24.1)
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(zod@3.23.8)
       '@ai16z/plugin-solana':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(@types/node@22.10.2)(axios@1.7.9)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(form-data@4.0.1)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(react@18.3.1)(rollup@4.28.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(@types/node@22.10.2)(axios@1.7.9)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(form-data@4.0.1)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(react@18.3.1)(rollup@4.28.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
       '@ai16z/plugin-starknet':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(@types/node@22.10.2)(axios@1.7.9)(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(qs@6.13.0)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(@types/node@22.10.2)(axios@1.7.9)(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(qs@6.13.0)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
+      amqplib:
+        specifier: ^0.10.5
+        version: 0.10.5
       better-sqlite3:
         specifier: ^11.5.0
         version: 11.7.0
@@ -77,7 +80,7 @@ importers:
     dependencies:
       '@ai16z/eliza':
         specifier: v0.1.5-alpha.5
-        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+        version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       '@coral-xyz/anchor':
         specifier: ^0.30.1
         version: 0.30.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -98,7 +101,7 @@ importers:
         version: 6.0.0
       viem:
         specifier: ^2.21.54
-        version: 2.21.55(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)(zod@3.23.8)
+        version: 2.21.55(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)(zod@3.24.1)
     devDependencies:
       '@types/better-sqlite3':
         specifier: ^7.6.12
@@ -119,38 +122,11 @@ importers:
         specifier: ^1.2.1
         version: 1.6.0(@types/node@20.17.10)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))
 
-  packages/zap_program:
-    dependencies:
-      '@coral-xyz/anchor':
-        specifier: ^0.30.1
-        version: 0.30.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-    devDependencies:
-      '@types/bn.js':
-        specifier: ^5.1.0
-        version: 5.1.6
-      '@types/chai':
-        specifier: ^4.3.0
-        version: 4.3.20
-      '@types/mocha':
-        specifier: ^9.0.0
-        version: 9.1.1
-      chai:
-        specifier: ^4.3.4
-        version: 4.5.0
-      mocha:
-        specifier: ^9.0.3
-        version: 9.2.2
-      prettier:
-        specifier: ^2.6.2
-        version: 2.8.8
-      ts-mocha:
-        specifier: ^10.0.0
-        version: 10.0.0(mocha@9.2.2)
-      typescript:
-        specifier: ^4.3.5
-        version: 4.9.5
-
 packages:
+
+  '@acuminous/bitsyntax@0.1.2':
+    resolution: {integrity: sha512-29lUK80d1muEQqiUsSo+3A0yP6CdspgC95EnKBMi22Xlwt79i/En4Vr67+cXhU+cZjbti3TgGGC5wy1stIywVQ==}
+    engines: {node: '>=0.8'}
 
   '@adraffy/ens-normalize@1.10.1':
     resolution: {integrity: sha512-96Z2IP3mYmF1Xg2cDm8f1gWGf/HUVedQ3FMifV4kG/PQ4yEP51xDtRAEfhVNt5f/uzpNkZHwWQuUcu6D6K+Ekw==}
@@ -2015,14 +1991,8 @@ packages:
   '@types/better-sqlite3@7.6.12':
     resolution: {integrity: sha512-fnQmj8lELIj7BSrZQAdBMHEHX8OZLYIHXqAKT1O7tDfLxaINzf00PMjw22r3N/xXh0w/sGHlO6SVaCQ2mj78lg==}
 
-  '@types/bn.js@5.1.6':
-    resolution: {integrity: sha512-Xh8vSwUeMKeYYrj3cX4lGQgFSF/N03r+tv4AiLl1SucqV+uTQpxRcnM8AkXKHwYP9ZPXOYXRr2KPXpVlIvqh9w==}
-
   '@types/body-parser@1.19.5':
     resolution: {integrity: sha512-fB3Zu92ucau0iQ0JMCFQE7b/dv8Ot07NI3KaZIkIUNXq82k4eBAqUaneXfleGY9JWskeS9y+u0nXMyspcuQrCg==}
-
-  '@types/chai@4.3.20':
-    resolution: {integrity: sha512-/pC9HAB5I/xMlc5FP77qjCnI16ChlJfW0tGa0IUcFn38VJrTV6DeZ60NU5KZBtaOZqjdpwTWohz5HU1RrhiYxQ==}
 
   '@types/chrome@0.0.278':
     resolution: {integrity: sha512-PDIJodOu7o54PpSOYLybPW/MDZBCjM1TKgf31I3Q/qaEbNpIH09rOM3tSEH3N7Q+FAqb1933LhF8ksUPYeQLNg==}
@@ -2063,17 +2033,11 @@ packages:
   '@types/http-errors@2.0.4':
     resolution: {integrity: sha512-D0CFMMtydbJAegzOyHjtiKPLlvnm3iTZyZRSZoLq2mRhDdmLfIWOCYPfQJ4cu2erKghU++QvjcUjp/5h7hESpA==}
 
-  '@types/json5@0.0.29':
-    resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
-
   '@types/mime@1.3.5':
     resolution: {integrity: sha512-/pyBZWSLD2n0dcHE3hq8s8ZvcETHtEuF+3E7XVt0Ig2nvsVQXdghHVcEkIWjy9A0wKfTn97a/PSDYohKIlnP/w==}
 
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
-
-  '@types/mocha@9.1.1':
-    resolution: {integrity: sha512-Z61JK7DKDtdKTWwLeElSEBcWGRLY8g95ic5FoQqI9CMx0ns/Ghep3B4DfcEimiKMvtamNVULVNKEsiwV3aQmXw==}
 
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
@@ -2146,9 +2110,6 @@ packages:
 
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
-
-  '@ungap/promise-all-settled@1.1.2':
-    resolution: {integrity: sha512-sL/cEvJWAnClXw0wHk85/2L0G6Sj8UB0Ctc1TEMbKSsmpRosqhwj9gWgFRZSrBr2f9tiXISwNhCPmlfqUqyb9Q==}
 
   '@uniswap/sdk-core@4.2.1':
     resolution: {integrity: sha512-hr7vwYrXScg+V8/rRc2UL/Ixc/p0P7yqe4D/OxzUdMRYr8RZd+8z5Iu9+WembjZT/DCdbTjde6lsph4Og0n1BQ==}
@@ -2372,9 +2333,9 @@ packages:
   amp@0.3.1:
     resolution: {integrity: sha512-OwIuC4yZaRogHKiuU5WlMR5Xk/jAcpPtawWL05Gj8Lvm2F6mwoJt4O/bHI+DHwG79vWd+8OFYM4/BzYqyRd3qw==}
 
-  ansi-colors@4.1.1:
-    resolution: {integrity: sha512-JoX0apGbHaUJBNl6yF+p6JAFYZ666/hhCGKN5t9QFjbJQKUU/g8MNbFDbvfrgKXvI1QpZplPOnwIo99lX/AAmA==}
-    engines: {node: '>=6'}
+  amqplib@0.10.5:
+    resolution: {integrity: sha512-Dx5zmy0Ur+Q7LPPdhz+jx5IzmJBoHd15tOeAfQ8SuvEtyPJ20hBemhOBA4b1WeORCRa0ENM/kHCzmem1w/zHvQ==}
+    engines: {node: '>=10'}
 
   ansi-colors@4.1.3:
     resolution: {integrity: sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw==}
@@ -2610,9 +2571,6 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
-  browser-stdout@1.3.1:
-    resolution: {integrity: sha512-qhAVI1+Av2X7qelOfAIYwXONood6XlZE/fXaBSmW/T5SzLAmCgzi+eiWE7fUvbHaeNBQH13UftjpXxsfLkMpgw==}
-
   bs58@4.0.1:
     resolution: {integrity: sha512-Ok3Wdf5vOIlBrgCvTq96gBkJw+JUEzdBgyaza5HLtPm7yTHkjRy8+JzNyHF7BHa0bNWOQIp3m5YF0nnFcOIKLw==}
 
@@ -2640,6 +2598,9 @@ packages:
   buffer-layout@1.2.2:
     resolution: {integrity: sha512-kWSuLN694+KTk8SrYvCqwP2WcgQjoRCiF5b4QDvkkz8EmgD+aWAIceGFKMIAdmF/pH+vpgNV3d3kAKorcdAmWA==}
     engines: {node: '>=4.5'}
+
+  buffer-more-ints@1.0.0:
+    resolution: {integrity: sha512-EMetuGFz5SLsT0QTnXzINh4Ksr+oo4i+UGTXEshiGCQWnsgSs7ZhJ8fzlwQ+OzEMs0MpDAMr1hxnblp5a4vcHg==}
 
   buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
@@ -2722,10 +2683,6 @@ packages:
     resolution: {integrity: sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==}
     engines: {node: '>=8'}
 
-  chalk@4.1.2:
-    resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
-    engines: {node: '>=10'}
-
   chalk@5.3.0:
     resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
@@ -2742,10 +2699,6 @@ packages:
 
   chmodrp@1.0.2:
     resolution: {integrity: sha512-TdngOlFV1FLTzU0o1w8MB6/BFywhtLC0SzRTGJU7T9lmdjlCWeMRt1iVo0Ki+ldwNk0BqNiKoc8xpLZEQ8mY1w==}
-
-  chokidar@3.5.3:
-    resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
-    engines: {node: '>= 8.10.0'}
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -2792,9 +2745,6 @@ packages:
 
   client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
-
-  cliui@7.0.4:
-    resolution: {integrity: sha512-OcRE68cOsVMXp1Yvonl/fzkQOyjLSu/8bhPDfQt0e0/Eb283TKP20Fs2MqoPsr9SwA595rRCA+QMzYc9nBP+JQ==}
 
   cliui@8.0.1:
     resolution: {integrity: sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==}
@@ -3016,15 +2966,6 @@ packages:
       supports-color:
         optional: true
 
-  debug@4.3.3:
-    resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
   debug@4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
@@ -3059,10 +3000,6 @@ packages:
   decamelize@1.2.0:
     resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==}
     engines: {node: '>=0.10.0'}
-
-  decamelize@4.0.0:
-    resolution: {integrity: sha512-9iE1PgSik9HeIIw2JO94IidnE3eBoQrFJ3w7sFuzSX4DpmZ3v5sZpUiV5Swcf6mQEF+Y0ru8Neo+p+nyh2J+hQ==}
-    engines: {node: '>=10'}
 
   decamelize@5.0.1:
     resolution: {integrity: sha512-VfxadyCECXgQlkoEAjeghAr5gY3Hf+IKjKb+X8tGVDtveCjN+USwprd2q3QXBR9T1+x2DG0XZF5/w+7HAtSaXA==}
@@ -3139,16 +3076,8 @@ packages:
     resolution: {integrity: sha512-EjePK1srD3P08o2j4f0ExnylqRs5B9tJjcp9t1krH2qRi8CCdsYfwe9JgSLurFBWwq4uOlipzfk5fHNvwFKr8Q==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  diff@3.5.0:
-    resolution: {integrity: sha512-A46qtFgd+g7pDZinpnwiRJtxbC1hpgf0uzP3iG89scHk0AUC7A1TGxf5OiiOUv/JMZR8GOt8hL900hV0bOy5xA==}
-    engines: {node: '>=0.3.1'}
-
   diff@4.0.2:
     resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
-    engines: {node: '>=0.3.1'}
-
-  diff@5.0.0:
-    resolution: {integrity: sha512-/VTCrvm5Z0JGty/BWHljh+BAiw3IK+2j87NGMu8Nwc/f48WoDAC395uomO9ZD117ZOBaHmkX1oyLvkVM/aIT3w==}
     engines: {node: '>=0.3.1'}
 
   discord-api-types@0.37.100:
@@ -3515,10 +3444,6 @@ packages:
     resolution: {integrity: sha512-2kCCtc+JvcZ86IGAz3Z2Y0A1baIz9fL31pH/0S1IqZr9Iwnjq8izfPtrCyQKO6TLMPELLsQMre7VDqeIKCsHkA==}
     engines: {node: '>=18'}
 
-  flat@5.0.2:
-    resolution: {integrity: sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==}
-    hasBin: true
-
   flatbuffers@1.12.0:
     resolution: {integrity: sha512-c7CZADjRcl6j0PlvFy0ZqXQ67qSEZfrVPynmnL+2zPc+NtMvrF8Y0QceMo7QqnSPc7+uWjUIAbvCQ5WIKlMVdQ==}
 
@@ -3705,10 +3630,6 @@ packages:
     engines: {node: 20 || >=22}
     hasBin: true
 
-  glob@7.2.0:
-    resolution: {integrity: sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
-
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
     deprecated: Glob versions prior to v9 are no longer supported
@@ -3727,10 +3648,6 @@ packages:
   grad-school@0.0.5:
     resolution: {integrity: sha512-rXunEHF9M9EkMydTBux7+IryYXEZinRk6g8OBOGDBzo/qWJjhTxy86i5q7lQYpCLHN8Sqv1XX3OIOc7ka2gtvQ==}
     engines: {node: '>=8.0.0'}
-
-  growl@1.10.5:
-    resolution: {integrity: sha512-qBr4OuELkhPenW6goKVXiv47US3clb3/IbuWF9KNKEijAy9oeHxU9IgzjvJhHkUzhaj7rOUD7+YGWqUjLp5oSA==}
-    engines: {node: '>=4.x'}
 
   gtoken@7.1.0:
     resolution: {integrity: sha512-pCcEwRi+TKpMlxAQObHDQ56KawURgyAf6jtIY046fJ5tIv3zDe/LEIubckAO8fj6JnAxLdmWkUfNyulQ2iKdEw==}
@@ -3769,10 +3686,6 @@ packages:
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
-
-  he@1.2.0:
-    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
-    hasBin: true
 
   headers-polyfill@3.3.0:
     resolution: {integrity: sha512-5e57etwBpNcDc0b6KCVWEh/Ro063OxPvzVimUdM0/tsYM/T7Hfy3kknIGj78SFTOhNd8AZY41U8mOHoO4LzmIQ==}
@@ -3937,10 +3850,6 @@ packages:
     resolution: {integrity: sha512-yvkRyxmFKEOQ4pNXCmJG5AEQNlXJS5LaONXo5/cLdTZdWvsZ1ioJEonLGAosKlMWE8lwUy/bJzMjcw8az73+Fg==}
     engines: {node: '>=0.10.0'}
 
-  is-plain-obj@2.1.0:
-    resolution: {integrity: sha512-YWnfyRwxL/+SsrWYfOpUtz5b3YD+nyfkHvjbcanzk8zgyO4ASD67uVMRt8k5bM4lLMDnXfriRhOpemw+NfT1eA==}
-    engines: {node: '>=8'}
-
   is-plain-object@2.0.4:
     resolution: {integrity: sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==}
     engines: {node: '>=0.10.0'}
@@ -3964,10 +3873,6 @@ packages:
 
   is-typedarray@1.0.0:
     resolution: {integrity: sha512-cyA56iCMHAh5CdzjJIa4aohJyeO1YbwLi3Jc35MmRU6poroFjIGZzUzupGiRPOjgHg9TLu43xbpwXk523fMxKA==}
-
-  is-unicode-supported@0.1.0:
-    resolution: {integrity: sha512-knxG2q4UC3u8stRGyAVJCOdxFmv5DZiRcdlIaAQXAbSfJya+OhopNotLQrstBhququ4ZpuKbDc/8S6mgXgPFPw==}
-    engines: {node: '>=10'}
 
   is-unicode-supported@1.3.0:
     resolution: {integrity: sha512-43r2mRvz+8JRIKnWJ+3j8JtjRKZ6GmjzfaE/qiBJnikNnYv/6bagRJ1kUhNk8R5EX/GkobD+r+sfxCPJsiKBLQ==}
@@ -4100,10 +4005,6 @@ packages:
 
   json-stringify-safe@5.0.1:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
-
-  json5@1.0.2:
-    resolution: {integrity: sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==}
-    hasBin: true
 
   json5@2.2.3:
     resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
@@ -4269,10 +4170,6 @@ packages:
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
-  log-symbols@4.1.0:
-    resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}
-    engines: {node: '>=10'}
-
   log-symbols@6.0.0:
     resolution: {integrity: sha512-i24m8rpwhmPIS4zscNzK6MSEhk0DUWa/8iYQWxhffV8jkI4Phvs3F+quL5xvS0gdQR0FyTCMMH33Y78dDTzzIw==}
     engines: {node: '>=18'}
@@ -4419,10 +4316,6 @@ packages:
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
-  minimatch@4.2.1:
-    resolution: {integrity: sha512-9Uq1ChtSZO+Mxa/CL1eGizn2vRn3MlLgzhT0Iz8zaY8NdvxvB0d5QdPFmCKf7JKA9Lerx5vRrnwO03jsSfGG9g==}
-    engines: {node: '>=10'}
-
   minimatch@9.0.5:
     resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
     engines: {node: '>=16 || 14 >=14.17'}
@@ -4481,11 +4374,6 @@ packages:
   mlly@1.7.3:
     resolution: {integrity: sha512-xUsx5n/mN0uQf4V548PKQ+YShA4/IW0KI1dZhrNrPCLG+xizETbHTkOa1f8/xut9JRPp8kQuMnz0oqwkTiLo/A==}
 
-  mocha@9.2.2:
-    resolution: {integrity: sha512-L6XC3EdwT6YrIk0yXpavvLkn8h+EU+Y5UcCHKECyMbdUIxyMuZj4bX4U9e1nvnvUUvQVsV2VHQr5zLdcUkhW/g==}
-    engines: {node: '>= 12.0.0'}
-    hasBin: true
-
   module-details-from-path@1.0.3:
     resolution: {integrity: sha512-ySViT69/76t8VhE1xXHK6Ch4NcDd26gx0MzKXLO+F7NOtnqH68d9zF94nT8ZWSxXh8ELOERsnJO/sWt1xZYw5A==}
 
@@ -4528,11 +4416,6 @@ packages:
 
   nan@2.22.0:
     resolution: {integrity: sha512-nbajikzWTMwsW+eSsNm3QwlOs7het9gGJU5dDZzRTQGk03vyBOauxgI4VakDzE0PtsGTmXPsXTbbjVhRwR5mpw==}
-
-  nanoid@3.3.1:
-    resolution: {integrity: sha512-n6Vs/3KGyxPQd6uO0eH4Bv0ojGSUvuLlIHtC3Y0kEO23YRge8H9x1GCzLn28YX0H66pMkxuaeESFq4tKISKwdw==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
 
   nanoid@3.3.6:
     resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}
@@ -5106,11 +4989,6 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  prettier@2.8.8:
-    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
-
   pretty-bytes@6.1.1:
     resolution: {integrity: sha512-mQUvGU6aUFQ+rNvTIAcZuWGRT9a6f6Yrg9bHs4ImKF+HZCEK+plBvnAZYSIQztknZF2qnzNtr6F8s0+IuptdlQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
@@ -5247,9 +5125,6 @@ packages:
   quick-lru@5.1.1:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
     engines: {node: '>=10'}
-
-  randombytes@2.1.0:
-    resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
 
   range-parser@1.2.1:
     resolution: {integrity: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==}
@@ -5451,9 +5326,6 @@ packages:
   send@0.19.0:
     resolution: {integrity: sha512-dW41u5VfLXu8SJh5bwRmyYUbAoSB3c9uQh6L8h/KtsFREPWpbX1lrljJo186Jc4nmci/sGUZ9a0a0J2zgfq2hw==}
     engines: {node: '>= 0.8.0'}
-
-  serialize-javascript@6.0.0:
-    resolution: {integrity: sha512-Qr3TosvguFt8ePWqsvRfrKyQXIiW+nGbYpy8XK24NQHE83caxWt+mIymTT19DGFbNWNLfEwsrkSmN64lVWB9ag==}
 
   serve-static@1.16.2:
     resolution: {integrity: sha512-VqpjJZKadQB/PEbEwvFdO43Ax5dFBZ2UECszz8bQ7pi7wt//PWe1P6MN7eCnjsatYtBT6EuiClbjSWP2WrIoTw==}
@@ -5693,10 +5565,6 @@ packages:
     resolution: {integrity: sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==}
     engines: {node: '>=12'}
 
-  strip-bom@3.0.0:
-    resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
-    engines: {node: '>=4'}
-
   strip-final-newline@3.0.0:
     resolution: {integrity: sha512-dOESqjYr96iWYylGObzd39EuNTa5VJxyvVAEm5Jnh7KGo75V43Hk1odPQkNDyXNmUR6k+gEiDVXnjB8HJ3crXw==}
     engines: {node: '>=12'}
@@ -5708,10 +5576,6 @@ packages:
   strip-json-comments@2.0.1:
     resolution: {integrity: sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==}
     engines: {node: '>=0.10.0'}
-
-  strip-json-comments@3.1.1:
-    resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
-    engines: {node: '>=8'}
 
   strip-literal@2.1.1:
     resolution: {integrity: sha512-631UJ6O00eNGfMiWG78ck80dfBab8X6IVFB51jZK5Icd7XAs60Z5y7QdSd/wGIklnWvRbUNloVzhOKKmutxQ6Q==}
@@ -5741,10 +5605,6 @@ packages:
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
-
-  supports-color@8.1.1:
-    resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
-    engines: {node: '>=10'}
 
   supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
@@ -5933,13 +5793,6 @@ packages:
   ts-mixer@6.0.4:
     resolution: {integrity: sha512-ufKpbmrugz5Aou4wcr5Wc1UUFWOLhq+Fm6qa6P0w0K5Qw2yhaUoiWszhCVuNQyNwrlGiscHOmqYoAox1PtvgjA==}
 
-  ts-mocha@10.0.0:
-    resolution: {integrity: sha512-VRfgDO+iiuJFlNB18tzOfypJ21xn2xbuZyDvJvqpTbWgkAgD17ONGr8t+Tl8rcBtOBdjXp5e/Rk+d39f7XBHRw==}
-    engines: {node: '>= 6.X.X'}
-    hasBin: true
-    peerDependencies:
-      mocha: ^3.X.X || ^4.X.X || ^5.X.X || ^6.X.X || ^7.X.X || ^8.X.X || ^9.X.X || ^10.X.X
-
   ts-node@10.9.2:
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
@@ -5953,14 +5806,6 @@ packages:
         optional: true
       '@swc/wasm':
         optional: true
-
-  ts-node@7.0.1:
-    resolution: {integrity: sha512-BVwVbPJRspzNh2yfslyT1PSbl5uIk03EZlb493RKHN4qej/D06n1cEhjlOJG69oFsE7OT8XjpTUcYf6pKTLMhw==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
-
-  tsconfig-paths@3.15.0:
-    resolution: {integrity: sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==}
 
   tslib@1.9.3:
     resolution: {integrity: sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==}
@@ -6023,11 +5868,6 @@ packages:
 
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
-
-  typescript@4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
 
   typescript@5.7.2:
     resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
@@ -6371,9 +6211,6 @@ packages:
   wide-align@1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
 
-  workerpool@6.2.0:
-    resolution: {integrity: sha512-Rsk5qQHJ9eowMH28Jwhe8HEbmdYDX4lwoMWshiCXugjtHqMD9ZbiqSDLxcsfdqsETPzVUtX5s1Z5kStiIM6l4A==}
-
   wrap-ansi@7.0.0:
     resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}
     engines: {node: '>=10'}
@@ -6465,10 +6302,6 @@ packages:
     engines: {node: '>= 14'}
     hasBin: true
 
-  yargs-parser@20.2.4:
-    resolution: {integrity: sha512-WOkpgNhPTlE73h4VFAFsOnomJVaovO8VqLDzy5saChRBFQFBoMYirowyW+Q9HB4HFF4Z7VZTiG3iSzJJA29yRA==}
-    engines: {node: '>=10'}
-
   yargs-parser@20.2.9:
     resolution: {integrity: sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==}
     engines: {node: '>=10'}
@@ -6476,14 +6309,6 @@ packages:
   yargs-parser@21.1.1:
     resolution: {integrity: sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==}
     engines: {node: '>=12'}
-
-  yargs-unparser@2.0.0:
-    resolution: {integrity: sha512-7pRTIA9Qc1caZ0bZ6RYRGbHJthJWuakf+WmHK0rVeLkNrrGhfoabBNdue6kdINI6r4if7ocq9aD/n7xwKOdzOA==}
-    engines: {node: '>=10'}
-
-  yargs@16.2.0:
-    resolution: {integrity: sha512-D1mvvtDG0L5ft/jGWkLpG1+m0eQxOfaBvTNELraWj22wSVUMWxZUvYgJYcKh6jGGIkJFhH4IZPQhR4TKpc8mBw==}
-    engines: {node: '>=10'}
 
   yargs@17.7.1:
     resolution: {integrity: sha512-cwiTb08Xuv5fqF4AovYacTFNxk62th7LKJ6BL9IGUpTJrWoU7/7WdQGTP2SjKf1dUNBGzDd28p/Yfs/GI6JrLw==}
@@ -6495,10 +6320,6 @@ packages:
 
   yauzl@2.10.0:
     resolution: {integrity: sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==}
-
-  yn@2.0.0:
-    resolution: {integrity: sha512-uTv8J/wiWTgUTg+9vLTi//leUl5vDQS6uii/emeTb2ssY7vl6QWf2fFbIIGjnhjvbdKlU0ed7QPgY1htTC86jQ==}
-    engines: {node: '>=4'}
 
   yn@3.1.1:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
@@ -6538,6 +6359,14 @@ packages:
     resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
 
 snapshots:
+
+  '@acuminous/bitsyntax@0.1.2':
+    dependencies:
+      buffer-more-ints: 1.0.0
+      debug: 4.4.0
+      safe-buffer: 5.1.2
+    transitivePeerDependencies:
+      - supports-color
 
   '@adraffy/ens-normalize@1.10.1': {}
 
@@ -6658,9 +6487,9 @@ snapshots:
     transitivePeerDependencies:
       - zod
 
-  '@ai16z/adapter-postgres@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))':
+  '@ai16z/adapter-postgres@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       '@types/pg': 8.11.10
       pg: 8.13.1
     transitivePeerDependencies:
@@ -6688,9 +6517,9 @@ snapshots:
       - typeorm
       - vue
 
-  '@ai16z/adapter-sqlite@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)':
+  '@ai16z/adapter-sqlite@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       '@types/better-sqlite3': 7.6.12
       better-sqlite3: 11.6.0
       sqlite-vec: 0.1.6
@@ -6719,9 +6548,9 @@ snapshots:
       - typeorm
       - vue
 
-  '@ai16z/client-auto@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)':
+  '@ai16z/client-auto@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       '@types/body-parser': 1.19.5
       '@types/cors': 2.8.17
       '@types/express': 5.0.0
@@ -6753,10 +6582,10 @@ snapshots:
       - typeorm
       - vue
 
-  '@ai16z/client-direct@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(bufferutil@4.0.8)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
+  '@ai16z/client-direct@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(bufferutil@4.0.8)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
-      '@ai16z/plugin-image-generation': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/plugin-image-generation': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
       '@types/body-parser': 1.19.5
       '@types/cors': 2.8.17
       '@types/express': 5.0.0
@@ -6799,10 +6628,10 @@ snapshots:
       - vue
       - yaml
 
-  '@ai16z/client-discord@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(ffmpeg-static@5.2.0)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)':
+  '@ai16z/client-discord@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(ffmpeg-static@5.2.0)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
-      '@ai16z/plugin-node': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(zod@3.23.8)
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/plugin-node': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(zod@3.23.8)
       '@discordjs/opus': https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02
       '@discordjs/rest': 2.4.0
       '@discordjs/voice': 0.17.0(@discordjs/opus@https://codeload.github.com/discordjs/opus/tar.gz/31da49d8d2cc6c5a2ab1bfd332033ff7d5f9fb02)(bufferutil@4.0.8)(ffmpeg-static@5.2.0)(utf-8-validate@5.0.10)
@@ -6851,9 +6680,9 @@ snapshots:
       - vue
       - winax
 
-  '@ai16z/client-telegram@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))':
+  '@ai16z/client-telegram@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       '@telegraf/types': 7.1.0
       telegraf: 4.16.3
       zod: 3.23.8
@@ -6881,9 +6710,9 @@ snapshots:
       - typeorm
       - vue
 
-  '@ai16z/client-twitter@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)':
+  '@ai16z/client-twitter@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       agent-twitter-client: 0.0.16
       glob: 11.0.0
       whatwg-url: 14.1.0
@@ -7012,9 +6841,9 @@ snapshots:
       - typeorm
       - vue
 
-  '@ai16z/plugin-bootstrap@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
+  '@ai16z/plugin-bootstrap@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       tsup: 8.3.5(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.1)
       whatwg-url: 14.1.0
     transitivePeerDependencies:
@@ -7048,9 +6877,9 @@ snapshots:
       - vue
       - yaml
 
-  '@ai16z/plugin-image-generation@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
+  '@ai16z/plugin-image-generation@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       tsup: 8.3.5(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.1)
       whatwg-url: 14.1.0
     transitivePeerDependencies:
@@ -7084,9 +6913,9 @@ snapshots:
       - vue
       - yaml
 
-  '@ai16z/plugin-node@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(zod@3.23.8)':
+  '@ai16z/plugin-node@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(zod@3.23.8)':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       '@cliqz/adblocker-playwright': 1.34.0(playwright@1.48.2)
       '@echogarden/espeak-ng-emscripten': 0.3.3
       '@echogarden/kissfft-wasm': 0.2.0
@@ -7177,103 +7006,10 @@ snapshots:
       - winax
       - zod
 
-  '@ai16z/plugin-node@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(zod@3.24.1)':
+  '@ai16z/plugin-solana@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(@types/node@22.10.2)(axios@1.7.9)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(form-data@4.0.1)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(react@18.3.1)(rollup@4.28.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
-      '@cliqz/adblocker-playwright': 1.34.0(playwright@1.48.2)
-      '@echogarden/espeak-ng-emscripten': 0.3.3
-      '@echogarden/kissfft-wasm': 0.2.0
-      '@echogarden/speex-resampler-wasm': 0.2.1
-      '@huggingface/transformers': 3.0.2
-      '@opendocsg/pdf2md': 0.1.32
-      '@types/uuid': 10.0.0
-      alawmulaw: 6.0.0
-      bignumber: 1.1.0
-      bignumber.js: 9.1.2
-      capsolver-npm: 2.0.2
-      cldr-segmentation: 2.2.1
-      command-exists: 1.2.9
-      csv-writer: 1.6.0
-      echogarden: 2.0.7(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10)(zod@3.24.1)
-      espeak-ng: 1.0.2
-      ffmpeg-static: 5.2.0
-      fluent-ffmpeg: 2.1.3
-      formdata-node: 6.0.3
-      fs-extra: 11.2.0
-      gaxios: 6.7.1
-      gif-frames: 0.4.1
-      glob: 11.0.0
-      graceful-fs: 4.2.11
-      html-escaper: 3.0.3
-      html-to-text: 9.0.5
-      import-meta-resolve: 4.1.0
-      jieba-wasm: 2.2.0
-      json5: 2.2.3
-      kuromoji: 0.1.2
-      libsodium-wrappers: 0.7.15
-      multer: 1.4.5-lts.1
-      node-cache: 5.1.2
-      node-llama-cpp: 3.1.1(typescript@5.7.2)
-      nodejs-whisper: 0.1.18
-      onnxruntime-node: 1.20.1
-      pdfjs-dist: 4.7.76
-      playwright: 1.48.2
-      pm2: 5.4.3(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-      puppeteer-extra: 3.3.6(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))
-      puppeteer-extra-plugin-capsolver: 2.0.1(bufferutil@4.0.8)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(typescript@5.7.2)(utf-8-validate@5.0.10)
-      sharp: 0.33.5
-      srt: 0.0.3
-      systeminformation: 5.23.5
-      tar: 7.4.3
-      tinyld: 1.3.4
-      uuid: 11.0.3
-      wav: 1.0.2
-      wav-encoder: 1.3.0
-      wavefile: 11.0.0
-      whatwg-url: 14.1.0
-      yargs: 17.7.2
-      youtube-dl-exec: 3.0.10
-    transitivePeerDependencies:
-      - '@echogarden/vosk'
-      - '@google-cloud/vertexai'
-      - '@langchain/anthropic'
-      - '@langchain/aws'
-      - '@langchain/cohere'
-      - '@langchain/core'
-      - '@langchain/google-genai'
-      - '@langchain/google-vertexai'
-      - '@langchain/groq'
-      - '@langchain/mistralai'
-      - '@langchain/ollama'
-      - '@types/puppeteer'
-      - aws-crt
-      - axios
-      - bufferutil
-      - canvas
-      - cheerio
-      - debug
-      - encoding
-      - handlebars
-      - peggy
-      - playwright-extra
-      - puppeteer
-      - puppeteer-core
-      - react
-      - solid-js
-      - sswr
-      - supports-color
-      - svelte
-      - typeorm
-      - typescript
-      - utf-8-validate
-      - vue
-      - winax
-      - zod
-
-  '@ai16z/plugin-solana@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(@types/node@22.10.2)(axios@1.7.9)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(form-data@4.0.1)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(react@18.3.1)(rollup@4.28.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
-    dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
-      '@ai16z/plugin-trustdb': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(@types/node@22.10.2)(axios@1.7.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/plugin-trustdb': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(@types/node@22.10.2)(axios@1.7.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
       '@coral-xyz/anchor': 0.30.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       '@solana/spl-token': 0.4.9(@solana/web3.js@1.95.8(bufferutil@4.0.8)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.7.2)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.95.8(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -7335,10 +7071,10 @@ snapshots:
       - vue
       - yaml
 
-  '@ai16z/plugin-starknet@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(@types/node@22.10.2)(axios@1.7.9)(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(qs@6.13.0)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
+  '@ai16z/plugin-starknet@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(@types/node@22.10.2)(axios@1.7.9)(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(qs@6.13.0)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
-      '@ai16z/plugin-trustdb': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(@types/node@22.10.2)(axios@1.7.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/plugin-trustdb': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(@types/node@22.10.2)(axios@1.7.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)
       '@avnu/avnu-sdk': 2.1.1(ethers@6.13.4(bufferutil@4.0.8)(utf-8-validate@5.0.10))(qs@6.13.0)(starknet@6.18.0)
       '@uniswap/sdk-core': 6.0.0
       '@unruggable_starknet/core': 0.1.0(starknet@6.18.0)
@@ -7393,9 +7129,9 @@ snapshots:
       - vue
       - yaml
 
-  '@ai16z/plugin-trustdb@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(@types/node@22.10.2)(axios@1.7.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
+  '@ai16z/plugin-trustdb@0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(@types/node@22.10.2)(axios@1.7.9)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)':
     dependencies:
-      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.76.1(zod@3.24.1)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
+      '@ai16z/eliza': 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(vue@3.5.13(typescript@5.7.2))
       dompurify: 3.2.2
       tsup: 8.3.5(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.1)
       uuid: 11.0.3
@@ -9640,16 +9376,10 @@ snapshots:
     dependencies:
       '@types/node': 20.17.10
 
-  '@types/bn.js@5.1.6':
-    dependencies:
-      '@types/node': 20.17.10
-
   '@types/body-parser@1.19.5':
     dependencies:
       '@types/connect': 3.4.38
       '@types/node': 20.17.10
-
-  '@types/chai@4.3.20': {}
 
   '@types/chrome@0.0.278':
     dependencies:
@@ -9698,14 +9428,9 @@ snapshots:
 
   '@types/http-errors@2.0.4': {}
 
-  '@types/json5@0.0.29':
-    optional: true
-
   '@types/mime@1.3.5': {}
 
   '@types/minimist@1.2.5': {}
-
-  '@types/mocha@9.1.1': {}
 
   '@types/ms@0.7.34': {}
 
@@ -9786,8 +9511,6 @@ snapshots:
     dependencies:
       '@types/node': 20.17.10
     optional: true
-
-  '@ungap/promise-all-settled@1.1.2': {}
 
   '@uniswap/sdk-core@4.2.1':
     dependencies:
@@ -9999,10 +9722,10 @@ snapshots:
       fs-extra: 10.1.0
       yargs: 17.7.2
 
-  abitype@1.0.7(typescript@5.7.2)(zod@3.23.8):
+  abitype@1.0.7(typescript@5.7.2)(zod@3.24.1):
     optionalDependencies:
       typescript: 5.7.2
-      zod: 3.23.8
+      zod: 3.24.1
 
   abort-controller@3.0.0:
     dependencies:
@@ -10091,7 +9814,13 @@ snapshots:
 
   amp@0.3.1: {}
 
-  ansi-colors@4.1.1: {}
+  amqplib@0.10.5:
+    dependencies:
+      '@acuminous/bitsyntax': 0.1.2
+      buffer-more-ints: 1.0.0
+      url-parse: 1.5.10
+    transitivePeerDependencies:
+      - supports-color
 
   ansi-colors@4.1.3: {}
 
@@ -10328,8 +10057,6 @@ snapshots:
     dependencies:
       fill-range: 7.1.1
 
-  browser-stdout@1.3.1: {}
-
   bs58@4.0.1:
     dependencies:
       base-x: 3.0.10
@@ -10354,6 +10081,8 @@ snapshots:
   buffer-from@1.1.2: {}
 
   buffer-layout@1.2.2: {}
+
+  buffer-more-ints@1.0.0: {}
 
   buffer@5.7.1:
     dependencies:
@@ -10460,11 +10189,6 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chalk@4.1.2:
-    dependencies:
-      ansi-styles: 4.3.0
-      supports-color: 7.2.0
-
   chalk@5.3.0: {}
 
   charm@0.1.2: {}
@@ -10476,18 +10200,6 @@ snapshots:
   check-error@2.1.1: {}
 
   chmodrp@1.0.2: {}
-
-  chokidar@3.5.3:
-    dependencies:
-      anymatch: 3.1.3
-      braces: 3.0.3
-      glob-parent: 5.1.2
-      is-binary-path: 2.1.0
-      is-glob: 4.0.3
-      normalize-path: 3.0.0
-      readdirp: 3.6.0
-    optionalDependencies:
-      fsevents: 2.3.3
 
   chokidar@3.6.0:
     dependencies:
@@ -10533,12 +10245,6 @@ snapshots:
       chalk: 3.0.0
 
   client-only@0.0.1: {}
-
-  cliui@7.0.4:
-    dependencies:
-      string-width: 4.2.3
-      strip-ansi: 6.0.1
-      wrap-ansi: 7.0.0
 
   cliui@8.0.1:
     dependencies:
@@ -10760,12 +10466,6 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  debug@4.3.3(supports-color@8.1.1):
-    dependencies:
-      ms: 2.1.2
-    optionalDependencies:
-      supports-color: 8.1.1
-
   debug@4.3.4:
     dependencies:
       ms: 2.1.2
@@ -10784,8 +10484,6 @@ snapshots:
       map-obj: 1.0.1
 
   decamelize@1.2.0: {}
-
-  decamelize@4.0.0: {}
 
   decamelize@5.0.1: {}
 
@@ -10842,11 +10540,7 @@ snapshots:
 
   diff-sequences@29.6.3: {}
 
-  diff@3.5.0: {}
-
   diff@4.0.2: {}
-
-  diff@5.0.0: {}
 
   discord-api-types@0.37.100: {}
 
@@ -10955,58 +10649,6 @@ snapshots:
       msgpack-lite: 0.1.26
       onnxruntime-node: 1.20.1
       openai: 4.76.1(zod@3.23.8)
-      sam-js: 0.3.1
-      strip-ansi: 7.1.0
-      tar: 7.4.3
-      tiktoken: 1.0.17
-      tinyld: 1.3.4
-      wasm-feature-detect: 1.8.0
-      ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-      wtf_wikipedia: 10.3.2
-    transitivePeerDependencies:
-      - aws-crt
-      - bufferutil
-      - canvas
-      - encoding
-      - supports-color
-      - utf-8-validate
-      - zod
-
-  echogarden@2.0.7(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10)(zod@3.24.1):
-    dependencies:
-      '@aws-sdk/client-polly': 3.709.0
-      '@aws-sdk/client-transcribe-streaming': 3.709.0
-      '@echogarden/audio-io': 0.2.3
-      '@echogarden/espeak-ng-emscripten': 0.3.3
-      '@echogarden/fasttext-wasm': 0.1.0
-      '@echogarden/flite-wasi': 0.1.1
-      '@echogarden/fvad-wasm': 0.2.0
-      '@echogarden/pffft-wasm': 0.4.2
-      '@echogarden/rnnoise-wasm': 0.2.0
-      '@echogarden/rubberband-wasm': 0.2.0
-      '@echogarden/sonic-wasm': 0.2.0
-      '@echogarden/speex-resampler-wasm': 0.3.0
-      '@echogarden/svoxpico-wasm': 0.2.0
-      '@echogarden/transformers-nodejs-lite': 2.17.1-lite.3(onnxruntime-node@1.20.1)
-      '@mozilla/readability': 0.5.0
-      alawmulaw: 6.0.0
-      chalk: 5.3.0
-      cldr-segmentation: 2.2.1
-      command-exists: 1.2.9
-      compromise: 14.14.3
-      fs-extra: 11.2.0
-      gaxios: 6.7.1
-      graceful-fs: 4.2.11
-      html-to-text: 9.0.5
-      import-meta-resolve: 4.1.0
-      jieba-wasm: 2.2.0
-      jsdom: 25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10)
-      json5: 2.2.3
-      kuromoji: 0.1.2
-      microsoft-cognitiveservices-speech-sdk: 1.41.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-      msgpack-lite: 0.1.26
-      onnxruntime-node: 1.20.1
-      openai: 4.76.1(zod@3.24.1)
       sam-js: 0.3.1
       strip-ansi: 7.1.0
       tar: 7.4.3
@@ -11396,8 +11038,6 @@ snapshots:
       semver-regex: 4.0.5
       super-regex: 1.0.0
 
-  flat@5.0.2: {}
-
   flatbuffers@1.12.0: {}
 
   fluent-ffmpeg@2.1.3:
@@ -11622,15 +11262,6 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 2.0.0
 
-  glob@7.2.0:
-    dependencies:
-      fs.realpath: 1.0.0
-      inflight: 1.0.6
-      inherits: 2.0.4
-      minimatch: 3.1.2
-      once: 1.4.0
-      path-is-absolute: 1.0.1
-
   glob@7.2.3:
     dependencies:
       fs.realpath: 1.0.0
@@ -11657,8 +11288,6 @@ snapshots:
   graceful-fs@4.2.11: {}
 
   grad-school@0.0.5: {}
-
-  growl@1.10.5: {}
 
   gtoken@7.1.0:
     dependencies:
@@ -11692,8 +11321,6 @@ snapshots:
   hasown@2.0.2:
     dependencies:
       function-bind: 1.1.2
-
-  he@1.2.0: {}
 
   headers-polyfill@3.3.0: {}
 
@@ -11875,8 +11502,6 @@ snapshots:
 
   is-plain-obj@1.1.0: {}
 
-  is-plain-obj@2.1.0: {}
-
   is-plain-object@2.0.4:
     dependencies:
       isobject: 3.0.1
@@ -11894,8 +11519,6 @@ snapshots:
   is-stream@3.0.0: {}
 
   is-typedarray@1.0.0: {}
-
-  is-unicode-supported@0.1.0: {}
 
   is-unicode-supported@1.3.0: {}
 
@@ -12050,11 +11673,6 @@ snapshots:
       object-keys: 1.1.1
 
   json-stringify-safe@5.0.1: {}
-
-  json5@1.0.2:
-    dependencies:
-      minimist: 1.2.8
-    optional: true
 
   json5@2.2.3: {}
 
@@ -12217,11 +11835,6 @@ snapshots:
 
   lodash@4.17.21: {}
 
-  log-symbols@4.1.0:
-    dependencies:
-      chalk: 4.1.2
-      is-unicode-supported: 0.1.0
-
   log-symbols@6.0.0:
     dependencies:
       chalk: 5.3.0
@@ -12370,10 +11983,6 @@ snapshots:
     dependencies:
       brace-expansion: 1.1.11
 
-  minimatch@4.2.1:
-    dependencies:
-      brace-expansion: 1.1.11
-
   minimatch@9.0.5:
     dependencies:
       brace-expansion: 2.0.1
@@ -12428,33 +12037,6 @@ snapshots:
       pkg-types: 1.2.1
       ufo: 1.5.4
 
-  mocha@9.2.2:
-    dependencies:
-      '@ungap/promise-all-settled': 1.1.2
-      ansi-colors: 4.1.1
-      browser-stdout: 1.3.1
-      chokidar: 3.5.3
-      debug: 4.3.3(supports-color@8.1.1)
-      diff: 5.0.0
-      escape-string-regexp: 4.0.0
-      find-up: 5.0.0
-      glob: 7.2.0
-      growl: 1.10.5
-      he: 1.2.0
-      js-yaml: 4.1.0
-      log-symbols: 4.1.0
-      minimatch: 4.2.1
-      ms: 2.1.3
-      nanoid: 3.3.1
-      serialize-javascript: 6.0.0
-      strip-json-comments: 3.1.1
-      supports-color: 8.1.1
-      which: 2.0.2
-      workerpool: 6.2.0
-      yargs: 16.2.0
-      yargs-parser: 20.2.4
-      yargs-unparser: 2.0.0
-
   module-details-from-path@1.0.3: {}
 
   moment@2.30.1: {}
@@ -12498,8 +12080,6 @@ snapshots:
 
   nan@2.22.0:
     optional: true
-
-  nanoid@3.3.1: {}
 
   nanoid@3.3.6: {}
 
@@ -12793,14 +12373,14 @@ snapshots:
     dependencies:
       '@noble/hashes': 1.5.0
 
-  ox@0.1.2(typescript@5.7.2)(zod@3.23.8):
+  ox@0.1.2(typescript@5.7.2)(zod@3.24.1):
     dependencies:
       '@adraffy/ens-normalize': 1.10.1
       '@noble/curves': 1.7.0
       '@noble/hashes': 1.6.1
       '@scure/bip32': 1.6.0
       '@scure/bip39': 1.5.0
-      abitype: 1.0.7(typescript@5.7.2)(zod@3.23.8)
+      abitype: 1.0.7(typescript@5.7.2)(zod@3.24.1)
       eventemitter3: 5.0.1
     optionalDependencies:
       typescript: 5.7.2
@@ -13158,8 +12738,6 @@ snapshots:
       tar-fs: 2.1.1
       tunnel-agent: 0.6.0
 
-  prettier@2.8.8: {}
-
   pretty-bytes@6.1.1: {}
 
   pretty-format@29.7.0:
@@ -13343,10 +12921,6 @@ snapshots:
   querystringify@2.2.0: {}
 
   quick-lru@5.1.1: {}
-
-  randombytes@2.1.0:
-    dependencies:
-      safe-buffer: 5.2.1
 
   range-parser@1.2.1: {}
 
@@ -13615,10 +13189,6 @@ snapshots:
       statuses: 2.0.1
     transitivePeerDependencies:
       - supports-color
-
-  serialize-javascript@6.0.0:
-    dependencies:
-      randombytes: 2.1.0
 
   serve-static@1.16.2:
     dependencies:
@@ -13929,9 +13499,6 @@ snapshots:
     dependencies:
       ansi-regex: 6.1.0
 
-  strip-bom@3.0.0:
-    optional: true
-
   strip-final-newline@3.0.0: {}
 
   strip-indent@4.0.0:
@@ -13939,8 +13506,6 @@ snapshots:
       min-indent: 1.0.1
 
   strip-json-comments@2.0.1: {}
-
-  strip-json-comments@3.1.1: {}
 
   strip-literal@2.1.1:
     dependencies:
@@ -13970,10 +13535,6 @@ snapshots:
   superstruct@2.0.2: {}
 
   supports-color@7.2.0:
-    dependencies:
-      has-flag: 4.0.0
-
-  supports-color@8.1.1:
     dependencies:
       has-flag: 4.0.0
 
@@ -14176,13 +13737,6 @@ snapshots:
 
   ts-mixer@6.0.4: {}
 
-  ts-mocha@10.0.0(mocha@9.2.2):
-    dependencies:
-      mocha: 9.2.2
-      ts-node: 7.0.1
-    optionalDependencies:
-      tsconfig-paths: 3.15.0
-
   ts-node@10.9.2(@types/node@22.10.2)(typescript@5.7.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
@@ -14200,25 +13754,6 @@ snapshots:
       typescript: 5.7.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
-
-  ts-node@7.0.1:
-    dependencies:
-      arrify: 1.0.1
-      buffer-from: 1.1.2
-      diff: 3.5.0
-      make-error: 1.3.6
-      minimist: 1.2.8
-      mkdirp: 0.5.6
-      source-map-support: 0.5.21
-      yn: 2.0.0
-
-  tsconfig-paths@3.15.0:
-    dependencies:
-      '@types/json5': 0.0.29
-      json5: 1.0.2
-      minimist: 1.2.8
-      strip-bom: 3.0.0
-    optional: true
 
   tslib@1.9.3: {}
 
@@ -14280,8 +13815,6 @@ snapshots:
   type@2.7.3: {}
 
   typedarray@0.0.6: {}
-
-  typescript@4.9.5: {}
 
   typescript@5.7.2: {}
 
@@ -14369,15 +13902,15 @@ snapshots:
       core-util-is: 1.0.2
       extsprintf: 1.3.0
 
-  viem@2.21.55(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)(zod@3.23.8):
+  viem@2.21.55(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10)(zod@3.24.1):
     dependencies:
       '@noble/curves': 1.7.0
       '@noble/hashes': 1.6.1
       '@scure/bip32': 1.6.0
       '@scure/bip39': 1.5.0
-      abitype: 1.0.7(typescript@5.7.2)(zod@3.23.8)
+      abitype: 1.0.7(typescript@5.7.2)(zod@3.24.1)
       isows: 1.0.6(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))
-      ox: 0.1.2(typescript@5.7.2)(zod@3.23.8)
+      ox: 0.1.2(typescript@5.7.2)(zod@3.24.1)
       webauthn-p256: 0.0.10
       ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
     optionalDependencies:
@@ -14662,8 +14195,6 @@ snapshots:
     dependencies:
       string-width: 4.2.3
 
-  workerpool@6.2.0: {}
-
   wrap-ansi@7.0.0:
     dependencies:
       ansi-styles: 4.3.0
@@ -14719,28 +14250,9 @@ snapshots:
 
   yaml@2.6.1: {}
 
-  yargs-parser@20.2.4: {}
-
   yargs-parser@20.2.9: {}
 
   yargs-parser@21.1.1: {}
-
-  yargs-unparser@2.0.0:
-    dependencies:
-      camelcase: 6.3.0
-      decamelize: 4.0.0
-      flat: 5.0.2
-      is-plain-obj: 2.1.0
-
-  yargs@16.2.0:
-    dependencies:
-      cliui: 7.0.4
-      escalade: 3.2.0
-      get-caller-file: 2.0.5
-      require-directory: 2.1.1
-      string-width: 4.2.3
-      y18n: 5.0.8
-      yargs-parser: 20.2.9
 
   yargs@17.7.1:
     dependencies:
@@ -14766,8 +14278,6 @@ snapshots:
     dependencies:
       buffer-crc32: 0.2.13
       fd-slicer: 1.1.0
-
-  yn@2.0.0: {}
 
   yn@3.1.1: {}
 
