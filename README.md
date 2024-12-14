@@ -44,6 +44,12 @@ pnpm bulid:package
 pnpm start
 ```
 
+**How to test**
+```
+input: swap 0.0001 sol to usdc
+input: add sol/usdc liquidity
+```
+
 # Default Settings
 - `OPENAI_API_KEY`: 🤖
   1. Visit https://platform.openai.com/
@@ -52,7 +58,6 @@ pnpm start
 
 - `USER_WALLET_PRIVATE_KEY`: 🌐
   1. place your wallet private key in .env file
-
 
 
 # Gaianet
