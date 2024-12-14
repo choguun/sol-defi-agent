@@ -24,6 +24,7 @@ import {
 } from "@ai16z/eliza";
 import { bootstrapPlugin } from "@ai16z/plugin-bootstrap";
 import { solanaPlugin } from "@ai16z/plugin-solana";
+import { raydiumPlugin } from "@ai16z/plugin-raydium";
 import Database from "better-sqlite3";
 import fs from "fs";
 import readline from "readline";
@@ -219,13 +220,13 @@ export function createAgent(
   return new AgentRuntime({
     databaseAdapter: db,
     token,
-    modelProvider: character.modelProvider || ModelProviderName.GAIANET,
+    modelProvider: ModelProviderName.OPENAI,
     evaluators: [],
     character,
     plugins: [
       bootstrapPlugin,
-      solanaPlugin,
-      character.settings.secrets?.WALLET_PUBLIC_KEY ? solanaPlugin : null,
+      // solanaPlugin,
+      raydiumPlugin,
     ].filter(Boolean),
     providers: [],
     actions: [],
@@ -389,6 +390,8 @@ const startAgents = async () => {
       };
       await startAgent(character, directClient as DirectClient);
     }
+
+    console.log("What do you want me to assits today for DeFi tasks?\n You can ask me to swap tokens, manage liquidity pools, find yield farming opportunities, plan investment strategies, analyze the market, and manage your portfolio.");
   } catch (error) {
     elizaLogger.error("Error starting agents:", error);
   }

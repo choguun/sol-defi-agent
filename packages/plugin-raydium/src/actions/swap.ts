@@ -10,24 +10,57 @@ import {
     generateObject
 } from "@ai16z/eliza";
 
-import { Connection, Keypair, PublicKey, Transaction, VersionedTransaction, SystemProgram, LAMPORTS_PER_SOL } from '@solana/web3.js';
-import bs from "bs58";
+import { Transaction, VersionedTransaction } from '@solana/web3.js';
 import RaydiumSwap from './raydium-swap';
-import 'dotenv/config';
 import { swapConfig } from './swap-config'; // Import the configuration
 
 interface SwapContent {
     srcToken: string;
-    dstToken: string;
-    srcAmount: number;
-    dstAmount: number;
+    destToken: string;
+    amount: number;
 }
 
-const swapTemplate = ``;
+const swapTemplate = `Respond with a JSON markdown block containing only the extracted values. Use null for any values that cannot be determined.
+
+Example response:
+\`\`\`json
+{
+    "srcToken": "So11111111111111111111111111111111111111112",
+    "destToken": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "amount": "1",
+}
+\`\`\`
+
+{{recentMessages}}
+
+Given the recent messages and wallet information below:
+
+{{walletInfo}}
+
+Extract the following information about the requested token swap:
+- srcToken (the token being sold)
+- destToken (the token being bought)
+- amount (the amount of the token being sold)
+
+Respond with a JSON markdown block containing only the extracted values. Use null for any values that cannot be determined. The result should be a valid JSON object with the following schema:
+\`\`\`json
+{
+    "srcToken": string | null,
+    "destToken": string | null,
+    "amount":  number | string | null
+}
+\`\`\``;
+
+
+/*
+   tokenAAmount: 0.001, // Swap 0.01 SOL for USDC in this example
+   tokenAAddress: "So11111111111111111111111111111111111111112", // Token to swap for the other, SOL in this case
+   tokenBAddress: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", // USDC address
+*/
 
 export const Swap: Action = {
-    name: "EXECUTE_SWAP",
-    similes: ["SWAP_TOKENS", "TOKEN_SWAP", "TRADE_TOKENS"],
+    name: "SWAP_RAYDIUM",
+    similes: ["EXECUTE_SWAP"],
     validate: async (runtime: IAgentRuntime) => true,
     description: "Execute a token swap using Raydium",
     handler: async (
@@ -50,7 +83,15 @@ export const Swap: Action = {
                 modelClass: ModelClass.LARGE,
             }) as SwapContent;
 
-            await swap(runtime.getSetting("RPC_URL")!, runtime.getSetting("USER_WALLET_PRIVATE_KEY")!);
+            console.log(content);
+
+            const tokenAAmount = content.amount;
+            const tokenAAddress = content.srcToken;
+            const tokenBAddress = content.destToken;
+
+            console.log(`Swapping ${tokenAAmount} of ${tokenAAddress} for ${tokenBAddress}...`);
+
+            await swap(tokenAAmount, tokenAAddress, tokenBAddress, runtime.getSetting("RPC_URL")!, runtime.getSetting("USER_WALLET_PRIVATE_KEY")!);
 
         } catch (error) {
             console.error("Swap error:", error);
@@ -91,14 +132,14 @@ export const Swap: Action = {
     ] as ActionExample[][]
 };
 
-const swap = async (rpcUrl: string, privateKey: string) => {
+const swap = async (TokenAAmount: number, tokenAAddress: string, tokenBAddress: string, rpcUrl: string, privateKey: string) => {
     /**
      * The RaydiumSwap instance for handling swaps.
      */
 
     const raydiumSwap = new RaydiumSwap(rpcUrl, privateKey);
     console.log(`Raydium swap initialized`);
-    console.log(`Swapping ${swapConfig.tokenAAmount} of ${swapConfig.tokenAAddress} for ${swapConfig.tokenBAddress}...`)
+    console.log(`Swapping ${TokenAAmount} of ${tokenAAddress} for ${tokenBAddress}...`)
   
     /**
      * Load pool keys from the Raydium API to enable finding pool information.
@@ -109,7 +150,7 @@ const swap = async (rpcUrl: string, privateKey: string) => {
     /**
      * Find pool information for the given token pair.
      */
-    const poolInfo = raydiumSwap.findPoolInfoForTokens(swapConfig.tokenAAddress, swapConfig.tokenBAddress);
+    const poolInfo = raydiumSwap.findPoolInfoForTokens(tokenAAddress, tokenBAddress);
     if (!poolInfo) {
       console.error('Pool info not found');
       return 'Pool info not found';
@@ -121,8 +162,8 @@ const swap = async (rpcUrl: string, privateKey: string) => {
      * Prepare the swap transaction with the given parameters.
      */
     const tx = await raydiumSwap.getSwapTransaction(
-      swapConfig.tokenBAddress,
-      swapConfig.tokenAAmount,
+      tokenBAddress,
+      TokenAAmount,
       poolInfo,
       swapConfig.maxLamports, 
       swapConfig.useVersionedTransaction,
@@ -139,9 +180,9 @@ const swap = async (rpcUrl: string, privateKey: string) => {
       const txid = swapConfig.useVersionedTransaction
         ? await raydiumSwap.sendVersionedTransaction(tx as VersionedTransaction, swapConfig.maxRetries)
         : await raydiumSwap.sendLegacyTransaction(tx as Transaction, swapConfig.maxRetries);
-  
-      console.log(`https://solscan.io/tx/${txid}`);
-  
+
+        console.log(`Swap complete!`);
+        console.log(`https://solscan.io/tx/${txid}`);
     } else {
       /**
        * Simulate the transaction and log the result.

@@ -47,7 +47,7 @@ class RaydiumSwap {
       if (!liquidityJsonResp.ok) return;
       liquidityJson = await liquidityJsonResp.json();
     } else {
-      liquidityJson = JSON.parse(fs.readFileSync(path.join(__dirname, liquidityFile), 'utf-8'));
+      liquidityJson = JSON.parse(fs.readFileSync(path.join(`${process.cwd()}/packages/plugin-raydium/src/actions`, liquidityFile), 'utf-8'));
     }
     const allPoolKeysJson = [...(liquidityJson?.official ?? []), ...(liquidityJson?.unOfficial ?? [])]
 

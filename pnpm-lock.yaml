@@ -44,6 +44,9 @@ importers:
       '@ai16z/plugin-node':
         specifier: v0.1.5-alpha.5
         version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(axios@1.7.9)(bufferutil@4.0.8)(canvas@2.11.2)(onnxruntime-node@1.20.1)(puppeteer-core@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(puppeteer@19.11.1(bufferutil@4.0.8)(typescript@5.7.2)(utf-8-validate@5.0.10))(react@18.3.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(zod@3.23.8)
+      '@ai16z/plugin-raydium':
+        specifier: workspace:*
+        version: link:packages/plugin-raydium
       '@ai16z/plugin-solana':
         specifier: v0.1.5-alpha.5
         version: 0.1.5-alpha.5(@google-cloud/vertexai@1.9.2)(@langchain/core@0.3.23(openai@4.73.0(zod@3.23.8)))(@types/node@22.10.2)(axios@1.7.9)(bufferutil@4.0.8)(fastestsmallesttextencoderdecoder@1.0.22)(form-data@4.0.1)(jsdom@25.0.1(bufferutil@4.0.8)(canvas@2.11.2)(utf-8-validate@5.0.10))(postcss@8.4.49)(react@18.3.1)(rollup@4.28.1)(sswr@2.1.0(svelte@5.11.2))(svelte@5.11.2)(typescript@5.7.2)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.7.2))(whatwg-url@14.1.0)(yaml@2.6.1)

@@ -5,7 +5,7 @@ export const character: Character = {
     // name: "Eliza",
     // plugins: [],
     // clients: [],
-    modelProvider: ModelProviderName.GAIANET,
+    modelProvider: ModelProviderName.OPENAI,
     knowledge: [
         "The Solana DeFi ecosystem is one of the most innovative and rapidly growing sectors within the blockchain space. Leveraging Solana's high-performance blockchain infrastructure, which supports high throughput, low latency, and low transaction fees, the ecosystem provides a fertile ground for decentralized finance applications to flourish.",
         "Core features of Solana DeFi include high scalability with over 65,000 transactions per second (TPS), consistently low transaction fees (usually less than $0.01), and a composable architecture with a single global state enabling seamless interoperability between protocols.",
