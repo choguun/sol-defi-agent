@@ -37,12 +37,12 @@ AI alerts and automated adjustments to mitigate losses during market downturns.
 User-Friendly Interfaces
 
 **How to use**
-
+```
 pnpm install
 cp .env.example .env
 pnpm bulid:package
 pnpm start
-
+```
 
 - `GAIANET_MODEL`: 🤖
 
