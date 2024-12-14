@@ -391,7 +391,7 @@ const startAgents = async () => {
       await startAgent(character, directClient as DirectClient);
     }
 
-    console.log("What do you want me to assits today for DeFi tasks?\n You can ask me to swap tokens, manage liquidity pools, find yield farming opportunities, plan investment strategies, analyze the market, and manage your portfolio.");
+    console.log("What do you want me to assits today for DeFi tasks?\nYou can ask me to swap tokens, manage liquidity pools, find yield farming opportunities, plan investment strategies, analyze the market, and manage your portfolio.");
   } catch (error) {
     elizaLogger.error("Error starting agents:", error);
   }

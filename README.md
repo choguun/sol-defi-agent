@@ -44,6 +44,18 @@ pnpm bulid:package
 pnpm start
 ```
 
+# Default Settings
+- `OPENAI_API_KEY`: 🤖
+  1. Visit https://platform.openai.com/
+  2. Get API key
+  3. Set to TRUE to enable OpenAI API key
+
+- `USER_WALLET_PRIVATE_KEY`: 🌐
+  1. place your wallet private key in .env file
+
+
+
+# Gaianet
 - `GAIANET_MODEL`: 🤖
 
   1. Visit https://docs.gaianet.ai/user-guide/nodes
