@@ -6,16 +6,16 @@ Vision: DeFi AI Agent for Solana ecosystem
 1. Fragmented User Experience
 Users often navigate between multiple platforms for staking, lending, liquidity provision, and yield farming, leading to inefficiency.
 
-1. Lack of Personalized Financial Management
+2. Lack of Personalized Financial Management
 Most DeFi platforms provide generic financial services, lacking tailored solutions or strategies for individual users.
 
-1. Inefficient Liquidity Management
+3. Inefficient Liquidity Management
 Users struggle to maximize liquidity utilization across multiple protocols, often leaving capital underutilized.
 
-1. Barriers for New Users
+4. Barriers for New Users
 Complex interfaces, jargon-heavy processes, and lack of guidance deter new entrants from engaging in DeFi.
 
-1. Market Volatility and Risk Management
+5. Market Volatility and Risk Management
 Users lack tools to monitor risk exposure dynamically and rebalance their portfolios during volatile market conditions.
 
 **Solution**
